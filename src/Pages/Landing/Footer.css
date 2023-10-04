@@ -1,0 +1,142 @@
+.footer{
+    background: #000;
+    padding: 2rem;
+    max-height:30rem ;
+}
+
+.sound-logo{
+    text-align: center;
+}
+
+.sound-logo a{
+    font-size: 2rem;
+}
+
+.dsign{
+    color: rgb(136, 35, 35);
+    margin-left: -0.5rem;
+    font-style: oblique;
+}
+
+.content-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.quick-linksbox{
+    padding-top: 1.5rem;
+    
+}
+
+.social-icons :nth-child(2){
+
+    padding: 1.5rem ;
+    
+}
+
+
+
+
+.social-icons {
+   display: flex;
+   gap: 2rem;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.iconsg{
+    color: #fff;
+    font-size: 35px;
+}
+
+.iconsd{
+    color: rgb(122, 105, 60);
+    font-size: 35px;
+}
+
+.iconst{
+    font-size: 35px;
+}
+
+.contactsbox{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    color: rgb(140, 140, 195);
+}
+
+.contactus-head{
+    color: blue;
+    font-weight: 900;
+}
+
+.botomtextcontent{
+    text-align: center;
+}
+
+.quick-linksbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quicklink-head{
+    color: blue;
+    font-weight: 900;
+
+}
+
+.quick-linksbox a{
+    color: rgb(140, 140, 195);
+    text-decoration: none;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.quick-linksbox a:hover{
+    color: rgb(72, 72, 150);
+    transition: 600ms;
+    text-decoration: underline;
+}
+
+.bottom-icon{
+    color: azure;
+    padding-right: 1rem;
+}
+
+.disclaimer{
+    text-align: center;
+    color:#fff ;
+    padding-top: 1rem;
+}
+
+
+@media(max-width:750px){
+    .footer{
+        padding-top: 0px;
+        position: relative;
+        text-overflow:ellipsis ;
+        max-height: 50rem;
+    }
+
+    .content-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .disclaimer{
+        position: absolute;
+        bottom: 5px;
+        left:70px;
+    }
+
+    
+}

@@ -1,0 +1,154 @@
+.navcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: #000;
+    min-height: 6rem;
+    color: #fff;
+}
+
+.menuicon{
+    display: none;
+}
+
+.navlogo{
+    font-size: 3rem;
+    font-style: oblique;
+    min-width: 120px;
+    
+}
+
+img{
+    color: #fff;
+}
+
+.navlogo2{
+    font-size: 2rem;
+    color: rgb(136, 35, 35);
+    margin-left: -15px;
+}
+
+.donpanel{
+    margin-top: 5px;
+    
+}
+
+.nav-list{
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-list .Link{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.nav-list .Link:hover{
+    background: rgb(134, 102, 102);
+    color: #fff;
+    transition: 1200ms;
+    border-radius: 10px;
+}
+
+.mobilenav{
+    display: none;
+}
+
+
+
+@media (max-width:750px){
+    .nav-list{
+        display: none;
+    }
+
+    .menuicon{
+        display: flex;
+        margin-top: 7px;
+        cursor: pointer;
+    }
+
+    .mobilenav{
+        background: #000;
+        position: fixed;
+        top: 0px;
+        min-width: 100%;
+        min-height: 150px;
+        transform: translateY(-300px);
+        transition: 1200ms;
+        display: flex;
+        z-index: 600;
+    }
+
+    .mobilenavhead{
+        display: flex;
+        padding: 0px 5px;
+    }
+
+    .navlogo{
+        font-style: oblique;
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .navlogo2{
+        margin-left: -7px;
+        font-size: 1rem;
+    }
+
+    .close-icon{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+
+    .donpanel{
+       position: absolute;
+       top: 60px;
+      
+    }
+
+    .mobilenav .Link{
+        list-style-type: none;
+        margin-left: -120px;
+        margin-top: 30px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+    
+  
+    
+    .mobilenav .Link:hover{
+        background: rgb(134, 102, 102);
+        color: #fff;
+        transition: 1200ms;
+        border-radius: 10px;
+        text-decoration: underline;
+    }
+
+    .mobilenav-list{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px 5px 20px 5px;
+        
+    }
+
+    .active{
+        transform: translateY(0)
+    }
+
+    
+
+   
+
+
+
+}

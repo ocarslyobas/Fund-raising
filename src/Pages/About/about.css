@@ -1,0 +1,110 @@
+
+.aboutcontent{
+    
+    min-height:70vh; 
+    background: linear-gradient( rgb(171, 171, 198), white);
+    margin-top: -50px;
+    
+}
+
+
+.headertext{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 900;
+text-align: left;
+color: rgb(120, 51, 51);
+text-align: center;
+margin-top: 40px;
+
+}
+
+
+.headertext>h1{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.contentbox{
+    display: flex;
+    gap: 20px;
+    min-height: 35rem;
+    
+}
+
+
+#abouttext{
+    text-align: justify;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    
+}
+
+.imgwraper{
+    min-width: 40%;
+    height: 20rem;
+}
+
+
+#aboutimg{
+height: 20rem;
+width: 100%;
+}
+
+.push{
+    height: 180px;
+}
+
+.main-footer{  
+    height: 180px;
+}
+
+
+
+@media (max-width:750px) {
+
+    #Aboutpage{
+        min-height: 85vh;
+    }
+    
+    .aboutcontent{
+    
+        min-height:85vh;
+        margin-top: -40px;
+    }
+    
+    
+    #abouttext{
+        padding: 0px 10px 10px 10px;
+        margin: 0px 10px 0px 10px;
+        justify-items: center;
+        justify-content: center;
+        text-align: justify;
+        
+        }
+
+
+    #aboutimg{
+        width: 100%;
+        min-height: 30rem;
+    }
+
+    .imgwraper{
+
+       height: 30rem;
+      
+    }
+
+    #abouttext{
+        font-size: 1rem;
+        line-height: 2rem;
+        font-family: Arial, Helvetica, sans-serif serif;
+
+    }
+
+    .contentbox{
+        display: block;
+    }
+}
+
+

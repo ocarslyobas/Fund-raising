@@ -1,0 +1,14 @@
+
+
+
+.Home-Wrapper{
+    min-height: 85vh;
+    position: relative;
+}
+
+@media (max-width:750px){
+
+    .Home-Wrapper{
+        min-height: 50vh;
+    }
+}
