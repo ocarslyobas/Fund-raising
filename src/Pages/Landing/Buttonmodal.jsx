@@ -101,7 +101,7 @@ return(
          </Modal.Header>
 
         <Modal.Body>
-        <Form onSubmit={handleSubmit}>
+        <Form onSubmit={payWithPaystack}>
 
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Email address</Form.Label>
